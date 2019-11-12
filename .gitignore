@@ -3,3 +3,4 @@ isodir/
 *.iso
 *.o
 *.d
+*.elf
