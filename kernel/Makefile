@@ -50,4 +50,4 @@ kernel: $(KERNELOBJS) linker.ld
 	@$(CC) -MD -c $< -o $@ -std=gnu11 $(CFLAGS) $(CPPFLAGS)
 
 clean:
-	@rm -f $(TRASH)
+	@rm -f $(TRASH) $(KERNELBIN)
